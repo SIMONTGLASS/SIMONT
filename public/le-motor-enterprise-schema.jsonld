@@ -1,14 +1,14 @@
 {
     "@context": "http://schema.org",
-    "@type": "AutoDealer",
-    "name": "Le Motor Enterprise",
-    "description": "Discover the best in car rentals, sales, and trade-ins at our car company located at 1 Roxy Square, 50 East Coast Road, Singapore. We offer a wide range of vehicles to suit your needs and provide exceptional service to ensure your satisfaction. Visit us today for the best deals on car rentals, sales, and trade-ins in Singapore!",
+    "@type": "Jeweller Glassware Store",
+    "name": "SIMONT",
+    "description": "Discover high quality accessories, gems, collectors items, jewellery and more at SIMONT. We are a leading jeweller and glassware store in Singapore and roxy sqaure.",
     "url": "https://lemotorenterprise.github.io/LeMotor/",
     "logo": "%PUBLIC_URL%/icon.png",
     "telephone": "",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1 Roxy Square, 50 East Coast Road",
+      "streetAddress": "Roxy Square 1 50 East Coast Road",
       "addressLocality": "Singapore",
       "postalCode": "",
       "addressCountry": "SG"

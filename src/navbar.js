@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 //import local components
-import topbanner from "./Assets/topBanner.webp";
+import topbanner from "./Assets/topBanner.jpg";
 import Homepage from "./homepage";
 import Listings from "./listings";
 import Carmart from "./carmart";
@@ -49,7 +49,7 @@ const NavBar = () => {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#051D40",
+    backgroundColor: "#171717",
     padding: "1% 0",
     width: "100%",
     position: "relative",
@@ -63,8 +63,8 @@ const NavBar = () => {
     padding: "10px",
   };
 
-  const logoStyle = {
-    width: "30%",
+  const logoStyle = { //top banner logo
+    width: "15%",
   };
 
   const menuStyle = {
@@ -73,7 +73,7 @@ const NavBar = () => {
     top: "100%",
     left: 0,
     right: 0,
-    backgroundColor: "#051D40",
+    backgroundColor: "#171717",
     textAlign: "center",
   };
 
@@ -133,7 +133,7 @@ const NavBar = () => {
               Chat with our AI bot
             </a>
             <Link to="/listings" style={linkStyle} className="navlinks">
-              Listings
+              Media
             </Link>
             <Link to="/contact" style={linkStyle} className="navlinks">
               Contact
@@ -163,7 +163,7 @@ const NavBar = () => {
                 className="navlinks"
                 onClick={toggleMenu}
               >
-                Listings
+                Media
               </Link>
               <Link
                 to="/contact"
@@ -176,7 +176,6 @@ const NavBar = () => {
             </div>
           )}
         </div>
-        <Carmart />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/chat-with-jasonbot" element={<chatbot />} />

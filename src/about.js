@@ -31,7 +31,7 @@ const AccordionItem = ({ title, children }) => {
             textAlign: "center",
             transition: "background-color 0.3s",
             fontSize: "150%",
-            background: "#051d41",
+            background: "black",
             color: "white",
           }}
         >
@@ -73,23 +73,23 @@ const CarOptionsSection = () => {
     >
       <h1
         style={{
-          fontSize: "1.875rem",
+          fontSize: "1.6rem",
           fontWeight: "bold",
           textAlign: "center",
         }}
       >
-        Why Le Motor Enterprise
+        Discover something special today
       </h1>
 
       <div>
-        <AccordionItem title="Renting a Car in Singapore">
+        <AccordionItem title="Custom made accessories">
           <h4 style={{ fontWeight: "600", marginBottom: "0.5rem" }}>
-            Benefits of Renting:
+            Benefits of our accessories:
           </h4>
           <ul style={{ listStyleType: "disc", paddingLeft: "1.25rem", marginBottom: "1rem" }}>
-            <li>Flexibility for short-term needs</li>
-            <li>No long-term financial commitment</li>
-            <li>Access to newer models</li>
+            <li>Handmade accessories, made with love and precision</li>
+            <li>High quality handicraft with many years of experience of glass work</li>
+            <li>Customize your desired accessory, left our expert create something that you will love</li>
             <li>Maintenance and insurance often included</li>
             <li>Ideal for tourists or temporary residents</li>
           </ul>
