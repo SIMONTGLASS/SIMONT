@@ -82,7 +82,7 @@ const CarOptionsSection = () => {
       </h1>
 
       <div>
-        <AccordionItem title="Custom made accessories">
+        <AccordionItem title="Custom made accessories" className="AccordionText">
           <h4 style={{ fontWeight: "600", marginBottom: "0.5rem" }}>
             Benefits of our accessories:
           </h4>
@@ -97,7 +97,7 @@ const CarOptionsSection = () => {
           </p>
         </AccordionItem>
 
-        <AccordionItem title="High quality materials">
+        <AccordionItem title="High quality materials" className="AccordionText">
           <h4 style={{ fontWeight: "600", marginBottom: "0.5rem" }}>
             Enjoy only the best materials:
           </h4>
@@ -115,7 +115,7 @@ const CarOptionsSection = () => {
           </p>
         </AccordionItem>
 
-        <AccordionItem title="Rare Collectors items">
+        <AccordionItem title="Rare Collectors items" className="AccordionText">
           <h4 style={{ fontWeight: "600", marginBottom: "0.5rem" }}>
             A wide range to choose from
           </h4>

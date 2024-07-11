@@ -55,20 +55,13 @@ function DarkMode() {
       carmartWrapper.style.color = "white"; // This is always white as per your comment
     }
 
-    //-------------SPLINE3D ASSET-----------------------//
-    const splineContainer =
-      document.getElementsByClassName("splineContainer")[0];
-    if (splineContainer) {
+    const AccordionText = document.getElementsByClassName("AccordionText")[0];
+    if (AccordionText) {
       //ensure that the DOM element has loaded
-      splineContainer.style.display = darkMode ? "none" : "initial";
+      AccordionText.style.color = "black"; // This is always white as per your comment
     }
 
-    //Dark mode video replacement for the spline container
-    const videoContainer = document.getElementsByClassName("videoContainer")[0];
-    if (videoContainer) {
-      //ensure that the DOM element has loaded
-      videoContainer.style.display = darkMode ? "initial" : "none";
-    }
+    //AccordionText
 
     //-------------Google Maps----------------------------//
     // Only invert the color of google maps not street view
@@ -95,9 +88,10 @@ function DarkMode() {
     }
 
     //-------------A tags that need styling--------------//
-    const socialsContainer = document.getElementsByClassName("socials-container")[0];
+    const socialsContainer =
+      document.getElementsByClassName("socials-container")[0];
     if (socialsContainer) {
-        socialsContainer.style.color = darkMode ? "white" : "black";
+      socialsContainer.style.color = darkMode ? "white" : "black";
     }
   }, [darkMode]);
 
