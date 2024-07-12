@@ -7,18 +7,17 @@ function Maps() {
     alignItems: "center",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     marginTop: "10%",
     overflow: "hidden",
   };
 
   const addressStyle = {
     fontSize: "1.5em",
-    padding: "6%",
   };
 
   const gridStyle = {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr",
     width: "100%",
   };
 
@@ -33,29 +32,14 @@ function Maps() {
       <div style={flexWrapper} className="maps">
         <h1>Locate Us!</h1>
         <b>
-          <p style={addressStyle}>
-            1 Roxy Square, 50 E Coast Road #01-89 S428769
-          </p>
         </b>
         <div style={gridStyle} className="GridMaps">
           <div className="grid1maps">
             <iframe
-              style={{...gridMaps, border: "none"}}
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.140654492527!2d103.9044345!3d1.3039278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da187224baf505%3A0x462d640f90456602!2sLe%20Motor%20Enterprise!5e0!3m2!1sen!2ssg!4v1719342160105!5m2!1sen!2ssg"
-              allowFullScreen=""
-              loading="lazy"
+              style={{ ...gridMaps, border: "none" }}
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63820.56372845003!2d103.904397!3d1.303884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1872f1619cd9%3A0x59818060341adbd0!2sSimont%20Silver%20%26%20Glass!5e0!3m2!1sen!2ssg!4v1720755107350!5m2!1sen!2ssg"
               referrerPolicy="no-referrer-when-downgrade"
               title="Map 1"
-            ></iframe>
-          </div>
-          <div className="grid2maps">
-            <iframe
-              style={{...gridMaps, border: "none"}}
-              src="https://www.google.com/maps/embed?pb=!4v1719511738352!6m8!1m7!1s_e9K_T1IYGr7D8VXluAtXA!2m2!1d1.303824235795248!2d103.9046160693781!3f187.04936435496995!4f-1.3516936065231988!5f0.7820865974627469"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Map 2"
             ></iframe>
           </div>
         </div>

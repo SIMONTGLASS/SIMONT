@@ -1,4 +1,4 @@
-import reviewUs from "./Assets/reviewUs.webp";
+import reviewUs from "./Assets/reviewUs.jpg";
 function ContactInfo() {
   const containerWrapper = {
     display: "flex",
@@ -24,7 +24,7 @@ function ContactInfo() {
 
   const subContent = {
     marginTop: "3%",
-    background: "#051D40",
+    background: "black",
     padding: "10%",
     display: "flex",
     flexDirection: "column",
@@ -34,7 +34,7 @@ function ContactInfo() {
 
   const subContent1 = {
     marginTop: "3%",
-    background: "#051D40",
+    background: "black",
     padding: "10%",
     display: "flex",
     flexDirection: "column",
@@ -52,13 +52,13 @@ function ContactInfo() {
       <h1>Contact Information</h1>
       <div style={bodyStyle} className="contactBody">
         <div style={subContent} className="subcontent">
-          <p className="pstyle">Phone: 6440 5131</p>
-          <p className="pstyle">Email: richard@lemotor.com.sg</p>
-          <p className="pstyle">Richard Wong (Purchaser): <br></br> 9769 2303</p>
-          <p className="pstyle">Alan Sim (Sales) <br></br>9821 1739</p>
+          <p className="pstyle">Phone: 9737 1617</p>
+          <p className="pstyle">Simon Tay</p>
+          <p className="pstyle">Roxy square 1 #01-54</p>
+          <p className="pstyle">Opens daily: <br></br> 12.30 - 7:00pm</p>
         </div>
 
-        <a href="https://g.page/r/CQJmRZAPZC1GEBM/review">
+        <a href="https://www.google.com/search?q=simont+silver+and+glass&rlz=1C5CHFA_enSG1030SG1030&oq=simont&aqs=chrome.0.69i59j46i175i199i512j0i512l2j0i10i512j69i60j69i61l2.1299j0j4&sourceid=chrome&ie=UTF-8">
         <div style={subContent1} className="subcontent">
           <img src={reviewUs} style={reviewImg} alt="reviewUs" />
         </div>

@@ -19,7 +19,7 @@ function Listings() {
   return (
     <>
       <div style={containerWrapper}>
-        <h1 style={h1Style}>Current Listings</h1>
+        <h1 style={h1Style}>Media</h1>
         <div
           className="canva-embed"
           style={{
@@ -43,15 +43,14 @@ function Listings() {
               padding: 0,
               margin: 0,
             }}
-            src="https://www.canva.com/design/DAGJKiHF-SY/lTwJ6bGp3YLvXUVVLZD_pg/view?embed"
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKsyL075w&#x2F;wYoxvEyOT9RiflGTVS8Wmg&#x2F;view?embed" 
             title="Car Listings"
             allowFullScreen
             allow="fullscreen"
           ></iframe>
         </div>
         <a
-          href="https://www.canva.com/design/DAGJKiHF-SY/lTwJ6bGp3YLvXUVVLZD_pg/view?utm_content=DAGJKiHF-SY&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-          target="_blank"
+          href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKsyL075w&#x2F;wYoxvEyOT9RiflGTVS8Wmg&#x2F;view?utm_content=DAGKsyL075w&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
           rel="noopener noreferrer"
         ></a>
       </div>

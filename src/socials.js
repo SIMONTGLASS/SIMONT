@@ -58,10 +58,10 @@ function Socials() {
         <GoogleReviews />
       </div>{" "}
       
-      <ElfsightWidget
+      {/* <ElfsightWidget
         style={widget1}
         widgetId="977f6169-8a58-40e9-8ba0-6b4e50d534d9"
-      />
+      /> */}
       <div style={flexContainer}>
         {/* <a
           className="socials-container"
@@ -88,19 +88,6 @@ function Socials() {
         >
           Click this here to visit
         </button> */}
-      </div>
-      <button
-        // Step 2: Add event handler
-        style={buttonStyle}
-        className="storeButton"
-        onClick={() => {
-          setShowimage(showimage === false); //update state, set timeframe to true to make the state true
-        }}
-      >
-        Click here to see our Store @ #01-89 Roxy Square
-      </button>
-      <div style={flexContainer1}>
-        <img style={photoStyle} src={storeImge} alt="store" />
       </div>
     </div>
   );

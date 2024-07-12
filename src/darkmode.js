@@ -12,7 +12,7 @@ function DarkMode() {
     zIndex: "99",
     fontSize: "18px",
     outline: "none",
-    backgroundColor: "#051d40",
+    backgroundColor: "blackn",
     color: "white",
     cursor: "pointer",
     padding: "15px",
@@ -24,9 +24,9 @@ function DarkMode() {
     //-------------Background color of the body----------------//
 
     //If darkMode is true, set the background color of the body to #202833
-    document.body.style.backgroundColor = darkMode ? "#202833" : "white";
+    document.body.style.backgroundColor = darkMode ? "#171717" : "white";
     //If darkMode is true, set the color of the body to white, else set it to #202833
-    document.body.style.color = darkMode ? "white" : "#202833";
+    //document.body.style.color = darkMode ? "white" : "#202833";
 
     //-------------Styles of the h1 tags-----------------------//
     const h1Tags = document.querySelectorAll("h1");
@@ -41,6 +41,13 @@ function DarkMode() {
       //ensure that the DOM element has loaded
       topBannerContainer.style.backgroundColor = darkMode ? "black" : "white";
     }
+
+    const maps =
+    document.getElementsByClassName("maps")[0];
+  if (maps) {
+    //ensure that the DOM element has loaded
+    maps.style.color = darkMode ? "white" : "black";
+  }
 
     const topBanner = document.getElementsByClassName("topbanner")[0];
     if (topBanner) {
@@ -72,18 +79,10 @@ function DarkMode() {
     }
 
     //-------------Footer Styles-----------------------//
-    const footerStyle = document.getElementsByClassName("footerStyle")[0];
-    if (footerStyle) {
-      //ensure that the DOM element has loaded
-      footerStyle.style.filter = darkMode ? "invert(1)" : "invert(0)";
-      footerStyle.style.paddingTop = darkMode ? "7%" : "0%";
-    }
-
-    //-------------Footer Styles-----------------------//
     const ModeButton = document.getElementsByClassName("ModeButton")[0];
     if (ModeButton) {
       //ensure that the DOM element has loaded
-      ModeButton.style.backgroundColor = darkMode ? "white" : "#051d40";
+      ModeButton.style.backgroundColor = darkMode ? "white" : "#171717";
       ModeButton.style.color = darkMode ? "#051d40" : "white";
     }
 
