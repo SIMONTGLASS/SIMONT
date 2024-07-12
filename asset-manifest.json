@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/SIMONT/static/js/main.fbbb3d29.js",
+    "main.js": "/SIMONT/static/js/main.8000351b.js",
     "static/js/208.d2f8c5a7.chunk.js": "/SIMONT/static/js/208.d2f8c5a7.chunk.js",
     "static/js/293.02a17dca.chunk.js": "/SIMONT/static/js/293.02a17dca.chunk.js",
     "static/js/917.e1da3401.chunk.js": "/SIMONT/static/js/917.e1da3401.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/webwizards.webp": "/SIMONT/static/media/webwizards.8b59ebbb4a399037f1fd.webp",
     "static/media/topBanner.jpg": "/SIMONT/static/media/topBanner.25e8f83157ec225b71aa.jpg",
     "index.html": "/SIMONT/index.html",
-    "main.fbbb3d29.js.map": "/SIMONT/static/js/main.fbbb3d29.js.map",
+    "main.8000351b.js.map": "/SIMONT/static/js/main.8000351b.js.map",
     "208.d2f8c5a7.chunk.js.map": "/SIMONT/static/js/208.d2f8c5a7.chunk.js.map",
     "293.02a17dca.chunk.js.map": "/SIMONT/static/js/293.02a17dca.chunk.js.map",
     "917.e1da3401.chunk.js.map": "/SIMONT/static/js/917.e1da3401.chunk.js.map",
@@ -34,6 +34,6 @@
     "23.46053682.chunk.js.map": "/SIMONT/static/js/23.46053682.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fbbb3d29.js"
+    "static/js/main.8000351b.js"
   ]
 }
