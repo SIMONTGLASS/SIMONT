@@ -11,14 +11,6 @@ function Socials() {
     width: "100%",
   };
 
-  const widget1 = {
-    width: "100%",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
   return (
     <div style={flexContainer}>
       <div>
