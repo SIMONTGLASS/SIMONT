@@ -138,15 +138,21 @@ const GoogleReviewsCarousel = ({ reviews }) => {
 const sampleReviews = [
   {
     rating: 5,
-    text: "Prompt and smooth transaction with well versed experience. Recommended 👍",
-    author: "vorm peer",
-    date: "6 days ago",
+    text: "Simon is such a friendly onwer a skilled craftsman. Lovely items. He has moved to the nearby Roxy Square.",
+    author: "coty chan",
+    date: "47 Weeks ago",
   },
   {
     rating: 5,
-    text: "Throughout the transaction, Edward was transparent and honest, and that gave me a peace of mind in purchasing this unit.",
-    author: "Kris J",
-    date: "3 years ago",
+    text: "very nice owner with beautiful work, especially the glass pieces!",
+    author: "naomi",
+    date: "49 weeks ago",
+  },
+  {
+    rating: 5,
+    text: "Great product!",
+    author: "Charmaine k",
+    date: "49 weeks ago",
   },
 ];
 
