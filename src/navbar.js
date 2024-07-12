@@ -100,7 +100,7 @@ const NavBar = () => {
 
   return (
     // default BrowserRouter homepage
-    <Router basename="/">
+    <Router basename={process.env.PUBLIC_URL}>
       <div style={bodyStyle}>
         <div
           style={{
