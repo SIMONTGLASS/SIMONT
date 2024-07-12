@@ -56,9 +56,10 @@ function ContactInfo() {
           <p className="pstyle">Simon Tay</p>
           <p className="pstyle">Roxy square 1 #01-54</p>
           <p className="pstyle">Opens daily: <br></br> 12.30 - 7:00pm</p>
+          <p className="pstyle">simontgems@gmail.com</p>
         </div>
 
-        <a href="https://www.google.com/search?q=simont+silver+and+glass&rlz=1C5CHFA_enSG1030SG1030&oq=simont&aqs=chrome.0.69i59j46i175i199i512j0i512l2j0i10i512j69i60j69i61l2.1299j0j4&sourceid=chrome&ie=UTF-8">
+        <a href="https://g.page/r/CdDbGjRggIFZEBM/review">
         <div style={subContent1} className="subcontent">
           <img src={reviewUs} style={reviewImg} alt="reviewUs" />
         </div>
