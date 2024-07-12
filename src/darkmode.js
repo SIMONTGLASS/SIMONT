@@ -82,7 +82,7 @@ function DarkMode() {
     const ModeButton = document.getElementsByClassName("ModeButton")[0];
     if (ModeButton) {
       //ensure that the DOM element has loaded
-      ModeButton.style.backgroundColor = darkMode ? "white" : "#171717";
+      ModeButton.style.backgroundColor = darkMode ? "white" : "#171717n";
       ModeButton.style.color = darkMode ? "#051d40" : "white";
     }
 
