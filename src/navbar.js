@@ -126,7 +126,7 @@ const NavBar = () => {
               Home
             </Link>
             <a
-              href="https://chatgpt.com/g/g-RitYiGDNl-le-motor-enterprise"
+              href="https://chatgpt.com/g/g-H5Jjfc40p-simont-bot"
               style={linkStyle}
               className="navlinks"
             >
@@ -150,7 +150,7 @@ const NavBar = () => {
                 Home
               </Link>
               <a
-                href="https://chatgpt.com/g/g-RitYiGDNl-le-motor-enterprise"
+                href="https://chatgpt.com/g/g-H5Jjfc40p-simont-bot"
                 style={linkStyle}
                 className="navlinks"
                 onClick={toggleMenu}
