@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const styles = `
   .carousel-container {
     position: relative;
-    max-width: 1000px;
+    width: 90%;
     margin: 0 auto;
   }
   .review-card {

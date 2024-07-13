@@ -9,16 +9,13 @@ function Socials() {
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
+    overflow: "hidden",
   };
 
   return (
     <div style={flexContainer}>
       <div>
         <GoogleReviews />
-      </div>
-
-      <div style={{border: "0.5px solid lightgray", marginTop: "10%"}}>
-        <ElfsightWidget widgetId="85f882e3-2660-4675-b069-0ab29ba97f91" />
       </div>
     </div>
   );
